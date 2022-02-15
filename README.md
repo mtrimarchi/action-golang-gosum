@@ -28,7 +28,7 @@ jobs:
           go-version: 1.14
 
       - name: tidy
-        uses: paulvollmer/action-golang-gosum@v1.0.0
+        uses: mtrimarchi/action-golang-gosum@v1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
